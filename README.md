@@ -1,7 +1,7 @@
 # Preprocessing-Big-Mart-Sales-data-using-Pandas
 ## Preprocessing Subsetting Modifying DF
 
-### Overview of Subsetting in Pandas:
+### 1. Overview of Subsetting in Pandas:
 
 ### TABLE OF CONTENTS
 
@@ -43,3 +43,31 @@ No, We can also have categorical variables as the index of a dataframe.
 CAN WE RESET THE INDEX?
 Yes, we can reset the index. Let's see how? We will use the reset_index function. You can read more about here: 
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.reset_index.html
+
+
+### 2.	Subsetting: Position Based
+
+### TABLE OF CONTENTS
+
+•	How to view the top and bottom rows of the data?
+
+•	How to select rows in a particular range?
+
+•	How to select the rows by position?
+
+•	How to select the specific rows and columns from the data using their position?
+
+#### How to view the top and bottom rows of the data?
+
+•	Use head function to view top n rows.
+
+•	Use tail function to view bottom n rows.
+
+#### How to select rows in a particular range?
+•	Use DataFrame[ ] to select particular range.
+
+#### How to select the rows by position?
+•	When we are using iloc, we need to specify the rows and columns by their position.
+
+#### How to select the specific rows and columns from the data using their position?
+•	In the iloc function pass the first list as the order of rows by their index and pass the second list as the order of columns.
